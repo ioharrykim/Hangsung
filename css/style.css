@@ -1,0 +1,628 @@
+/* 커스텀 스타일 적용 */
+
+@font-face {
+    font-family: 'InkLipquid'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff'); font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.s0 {
+    background-image: url(../images/indexmain_0.jpg);
+    background-size: cover;
+}
+
+/*
+.s1 {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+.s2 {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+}
+.s3 {
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+}
+.s4 {
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+}
+.s5 {
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+}
+*/
+
+
+
+#v0 {
+    float: left;
+    margin-left: 10%;
+}
+#v1 {
+    float: right;
+    opacity: 0%;
+}
+#v2 {
+    float: left;
+    opacity: 0%;
+}
+#v3 {
+    float: right;
+    right: 300px;
+    margin-bottom: -100px;
+    z-index: -9999;
+}
+#v4 {
+    float: left;
+    margin-left: 50px;
+}
+#v5 {
+    float: right;
+}
+#v6 {
+    float: left;
+}
+#v7 {
+    float: right;
+}
+#v8 {
+    float: left;
+}
+
+#container {
+    z-index: 0;
+}
+
+
+/*
+#i4 {
+    float: left;
+    display: none;
+    width: 50%;
+    position: absolute;
+}
+*/
+.section h1 {
+    font-size: 54px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1.2;
+}
+
+/* 메인 페이지 */
+.main-page {
+    margin-top: -6%;
+    margin-left: 10%;
+}
+h1.main-type {
+    color: #07b47f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.0;
+    letter-spacing: -1px;
+}
+h1.main-type span {
+    font-family: 'KCC-eunyoung';
+    color: #07b47f;
+    font-weight: 900;
+    font-size: 120px;
+}
+.sub-type2 {
+    color: #303030;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+.sub-type2 span.btn-1 {
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    background-color: #07b47f;
+    border: 1px solid #07b47f;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+}
+.sub-type2 span.btn-2 {
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    background-color: #ffd400;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #303030;
+    margin-right: 10px;
+}
+table {
+    position: absolute;
+    top: 75vh;
+}
+table td {
+    font-size: 14px;
+    color: #303030;
+    font-weight: 900;
+    padding-right: 20px;
+    letter-spacing: -1px;
+}
+table td span {
+    font-size: 12px;
+    color: #303030;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+/* 1페이지 */
+.page0 {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-right: 120px;
+    margin-top: 205px;
+    z-index: 9999;
+}
+.page0 h1 {
+    text-align: right;
+    color: #07b47f;
+    font-family: 'KCC-eunyoung';
+    font-size: 80px;
+}
+.page0 p {
+    color: #303030;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: right;
+    margin-top: 60px;
+    line-height: 1.8;
+}
+
+/* 2페이지 */
+.page1 {
+    position: absolute;
+    float: left;
+    left: 0;
+    margin-left: 120px;
+    margin-top: 60px;
+    z-index: 9999;
+}
+.page1 h1 {
+    color: #07b47f;
+    font-family: 'KCC-eunyoung';
+    font-size: 100px;
+    line-height: 1.0;
+}
+.page1 span {
+    font-size: 22px;
+    font-weight: 500;
+}
+.page1 p {
+    float: left;
+    width: 60%;
+    color: #303030;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+/* 3페이지 */
+.page2 {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-right: 120px;
+    margin-top: 60px;
+    z-index: 9999;
+}
+.page2 h1 {
+    color: #07b47f;
+    font-family: 'KCC-eunyoung';
+    font-size: 100px;
+    text-align: right;
+    line-height: 1.0;
+}
+.page2 p {
+    float: right;
+    text-align: right;
+    width: 100%;
+    color: #303030;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page2 span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* 4페이지 */
+.page3 {
+    position: absolute;
+    left: 0;
+    margin-left: 120px;
+    margin-top: 345px;
+    z-index: 9999;
+}
+.page3 h1 {
+    color: #07b47f;
+    font-family: 'KCC-eunyoung';
+    font-size: 100px;
+    line-height: 0.4;
+}
+.page3 p {
+    float: left;
+    width: 100%;
+    color: #303030;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page3 span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* 5페이지 */
+.page4 {
+    position: absolute;
+    top: 30vh;
+    right: 120px;
+    z-index: 9999;
+}
+.page4 h1 {
+    color: #024d1a;
+    font-family: 'KCC-eunyoung';
+    line-height: 1.0;
+    font-size: 80px;
+    text-align: right;
+    letter-spacing: -1px;
+}
+.page4 p {
+    float: right;
+    text-align: right;
+    width: 100%;
+    color: #144b25;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page4 p span {
+    font-weight: 300;
+    color: #144b25;
+    text-align: right;
+    font-size: 16px;
+}
+.page4 p span.em {
+    font-weight: 900;
+    color: #024d1a;
+}
+
+/* 6페이지 */
+.page5 {
+    position: absolute;
+    top: 30vh;
+    left: 120px;
+    z-index: 9999;
+}
+.page5 h1 {
+    color: #0b037c;
+    font-family: 'KCC-eunyoung';
+    line-height: 1.0;
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+.page5 p {
+    float: left;
+    width: 100%;
+    color: #231c7c;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page5 p span {
+    font-weight: 300;
+    color: #231c7c;
+    text-align: left;
+    font-size: 16px;
+}
+.page5 p span.em {
+    font-weight: 900;
+    color: #0b037c;
+}
+
+/* 7페이지 */
+.page6 {
+    position: absolute;
+    top: 30vh;
+    right: 120px;
+    z-index: 9999;
+}
+.page6 h1 {
+    color: #2d2029;
+    font-family: 'KCC-eunyoung';
+    line-height: 1.0;
+    font-size: 80px;
+    text-align: right;
+    letter-spacing: -1px;
+}
+.page6 p {
+    float: right;
+    text-align: right;
+    width: 100%;
+    color: #2c252a;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page6 p span {
+    font-weight: 300;
+    color: #2c252a;
+    text-align: right;
+    font-size: 16px;
+}
+.page6 p span.em {
+    font-weight: 900;
+    color: #2d2029;
+}
+
+/* 8페이지 */
+.page7 {
+    position: absolute;
+    top: 30vh;
+    left: 120px;
+    z-index: 9999;
+}
+.page7 h1 {
+    color: #462346;
+    font-family: 'KCC-eunyoung';
+    line-height: 1.0;
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+.page7 p {
+    float: left;
+    width: 100%;
+    color: #463046;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page7 p span {
+    font-weight: 300;
+    color: #463046;
+    text-align: left;
+    font-size: 16px;
+}
+.page7 p span.em {
+    font-weight: 900;
+    color: #462346;
+}
+
+/* 9페이지 */
+.page8 {
+    position: absolute;
+    top: 30vh;
+    right: 120px;
+    z-index: 9999;
+}
+.page8 h1 {
+    color: #755f00;
+    text-align: right;
+    font-family: 'KCC-eunyoung';
+    line-height: 1.0;
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+.page8 p {
+    float: right;
+    text-align: right;
+    width: 100%;
+    color: #706018;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.page8 p span {
+    font-weight: 300;
+    color: #706018;
+    text-align: right;
+    font-size: 16px;
+}
+.page8 p span.em {
+    font-weight: 900;
+    color: #755f00;
+}
+
+/*
+a {
+    display: none;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+}
+*/
+#fp-nav ul li a span {
+    background-color: #8b8b8b;
+    color: #8b8b8b;
+}
+
+/* 버튼 */ 
+button {
+    outline: none;
+    float: right;
+    margin-top: 40px;
+    display:inline-block;
+    height:40px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:#755f00;
+    border:1px solid #fff;
+    border-radius:2px;
+    color:#fff;
+    line-height:40px;
+    cursor:pointer;
+}
+button:hover {
+    background-color:#ffd400;
+    color:#fff;
+    border:1px solid #fff;
+}
+
+/* z-index */
+video {
+    z-index: -3;
+}
+
+/* 공지 */
+.notice {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    right: 250px;
+    font-size: 12px;
+    color: #c7c7c7;
+}
+
+/* 헤더 */
+.header {
+    position: fixed;
+    top: 20px;
+    left: 120px;
+    z-index: 9999;
+}
+.header a {
+    display: flex;
+    font-family: 'KCC-eunyoung';
+    font-size: 30px;
+    line-height: 40px;
+}
+.header a h3 {
+    font-family: 'KCC-eunyoung';
+    margin-right: 15px;
+    color: #464646;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+.header a img {
+    margin-right: 10px;
+}
+.header a span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    letter-spacing: -1px;
+}
+.nav {
+    display: flex;
+    position: fixed;
+    top: 29px;
+    right: 30px;
+    z-index: 9999;
+}
+a {
+    text-decoration: none;
+}
+a.nav-text {
+    color: #606060;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+a.nav-btn {
+    margin-top: -4px;
+    margin-left: 10px;
+    display: block;
+    right: -100px;
+    padding: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border: 0px solid #303030;
+    background-color: #06b480;
+}
+a.nav-btn:hover {
+    background-color: #ffd400;
+}
+a.header-logo {
+    color: #303030;
+    font-size: 30px;
+    font-weight: 900;
+}
+.sub-header {
+    font-size: 10px;
+}
+
+/* 배경이미지 */
+.s2 {
+    background-image: url(../images/main2-1.jpg);
+    background-size: cover;
+}
+.s3 {
+    background-image: url(../images/main1-1.jpg);
+    background-size: cover;
+}
+
+/* 마우스 */
+
+
+  /*
+  span {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    background: #55b9f3;
+    transform: translate(-50%, -50%);
+    animation: blow 4s linear infinite;
+  }
+  
+  
+  @keyframes blow {
+    0% {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -1000%);
+      opacity: 0;
+      filter: hue-rotate(720deg);
+    }
+  }
+  */

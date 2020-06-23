@@ -1,0 +1,1250 @@
+/* 커스텀 스타일 적용 */
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* 개요 */ 
+section > article.overview {
+    background-image: url(../images/main0.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+section > article.overview > img {
+    position: absolute; 
+    top: 120px; 
+    left: 50%;
+    margin-left: -312.5px;
+}
+section > article.overview > h3 {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 73vh;
+    margin-left: 10%;
+    text-shadow: 0 0 5px #303030;
+    /*
+    margin: 650px 0 0 20%;
+    padding-bottom: 3%;
+    */
+}
+section > article.overview > p {
+    display: inline-block;
+    position: absolute;
+    top: 80vh;
+    margin-left: 10%;
+    line-height: 1.8;
+    font-weight: 400;
+    /*
+    margin: 0 0 0 110px;
+    */
+    width: 53%;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0 0 5px #303030;
+}
+section > article.overview > .overview-title {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+section > article.overview > .overview-title > h2 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: -1px;
+    text-shadow: 0 0 5px #303030;
+    margin-bottom: -8px;
+}
+section > article.overview > .overview-title > h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+}
+section > article.overview > h2 span {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+/* 통계 */ 
+
+section > article.statistics {
+    background-color: #fff;
+}
+section > article.statistics > img {
+    position: absolute;
+    margin: 125px 0 0 195px;
+}
+section > article.statistics > h1 {
+    font-size: 30px;
+    position: absolute;
+    margin: 150px 0 0 240px;
+}
+
+/* 통계 자료 */ 
+
+section > article.statistics > div.first {
+    margin: 300px 0 0 220px;
+}
+section > article.statistics > div.first > img {
+    margin-top: -260px;
+    float: right;
+    margin-right: 220px;
+}
+section > article.statistics > div.first > h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #06b480;
+    letter-spacing: -1px;
+}
+section > article.statistics > div.first > p {
+    font-size: 16px;
+    color: #545454;
+    margin-top: 90px;
+    line-height: 1.8;
+}
+section > article.statistics > div.first > p.sub {
+    font-size: 12px;
+    margin-top: 40px;
+    color: #9e9e9e;
+}
+section > article.statistics > div.first > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+
+section > article.statistics > div.second {
+    margin: 200px 0 0 220px;
+}
+section > article.statistics > div.second > img {
+    margin-top: -460px;
+    float: left;
+}
+section > article.statistics > div.second > h3 {
+    margin-right: 220px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #06b480;
+    letter-spacing: -1px;
+}
+section > article.statistics > div.second > p {
+    text-align: right;
+    font-size: 16px;
+    color: #545454;
+    margin: 90px 220px 0 0;
+    line-height: 1.8;
+}
+section > article.statistics > div.second > p.sub {
+    margin-right: 220px;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 40px;
+    color: #9e9e9e;
+}
+section > article.statistics > div.second > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+
+section > article.statistics > div.third {
+    margin-top: 200px;
+}
+section > article.statistics > div.third > img {
+    display: block;
+    margin: 0 auto;
+}
+section > article.statistics > div.third > h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #06b480;
+    letter-spacing: -1px;
+}
+section > article.statistics > div.third > p {
+    text-align: center;
+    font-size: 16px;
+    color: #545454;
+    margin-top: 90px;
+    line-height: 1.8;
+}
+section > article.statistics > div.third > p.sub {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+    color: #9e9e9e;
+    margin-bottom: 139px;
+}
+section > article.statistics > div.third > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+
+/* 인터뷰 */
+
+
+section > article.interview > img {
+    position: absolute;
+    margin: 125px 0 0 195px;
+}
+section > article.interview > h1 {
+    font-size: 30px;
+    position: absolute;
+    margin: 150px 0 0 240px;
+    color: white;
+}
+
+section > article.interview > div.interview-1 {
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(../images/interview_new.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section > article.interview > div.interview-1 > div.interviewer {
+    text-align: right;
+    margin-right: 220px;
+    margin-top: 125px;
+    color: #303030;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+section > article.interview > div.interview-1 > div.interviewer h2 {
+    margin-top: 200px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-weight: 900;
+    color: #06b480;
+}
+section > article.interview > div.interview-1 > div.interviewer table {
+    clear: both;
+    font-size: 16px;
+    text-align: right;
+    float: right;
+    margin-top: 30px;
+    letter-spacing: -1px;
+}
+section > article.interview > div.interview-1 > div.interviewer table td {
+    padding-right: 40px;
+}
+.line {
+    float: right;
+    background-color: #06b480;
+    margin-top: 20px;
+    width: 230px;
+    height: 3px;
+}
+section > article.interview > div.interview-1 > div.interviewer table td:last-child {
+    padding-right: 0px;
+}
+section > article.interview > div.interview-text {
+    display: block;
+    margin-left: 20%;
+}
+section > article.interview > div.interview-text > div.box1 {
+    float: left;
+    margin: 120px 100px 0 0px;
+    display: inline-block;
+    width: 35%;
+}
+section > article.interview > div.interview-text > div.box1 > h1 {
+    font-size: 50px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box1 > h2 {
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box1 > p {
+    line-height: 1.8;
+    color: #545454;
+}
+section > article.interview > div.interview-text > div.box1 > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+section > article.interview > div.interview-text > div.box2 {
+    margin: 120px 100px 0 0px;
+    display: inline-block;
+    width: 35%;
+}
+section > article.interview > div.interview-text > div.box2 > h1 {
+    font-size: 50px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box2 > h2 {
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box2 > p {
+    line-height: 1.8;
+    color: #545454;
+}
+section > article.interview > div.interview-text > div.box2 > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+section > article.interview > div.interview-text > div.box3 {
+    float: left;
+    margin: 120px 100px 0 0px;
+    display: inline-block;
+    width: 35%;
+}
+section > article.interview > div.interview-text > div.box3 > h1 {
+    font-size: 50px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box3 > h2 {
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box3 > p {
+    line-height: 1.8;
+    color: #545454;
+}
+section > article.interview > div.interview-text > div.box3 > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+section > article.interview > div.interview-text > div.box4 {
+    display: inline-block;
+    margin: 120px 100px 0 0px;
+    width: 35%;
+}
+section > article.interview > div.interview-text > div.box4 > h1 {
+    font-size: 50px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box4 > h2 {
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    color: #06b480;
+}
+section > article.interview > div.interview-text > div.box4 > p {
+    line-height: 1.8;
+    color: #545454;
+}
+section > article.interview > div.interview-text > div.box4 > p span {
+    display: inline;
+    background-color: #fff2b3;
+}
+section > article.interview > div.interview-all > a {
+    background-color: #06b480;
+    margin: 100px auto 0 auto;
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+section > article.interview > div.interview-all > a:hover {
+    background-color: #ffd400;
+    color: #fff;
+}
+
+/* 인터뷰 전문 */
+.pop-layer .pop-container {
+    padding: 20px 25px;
+}
+.pop-layer p.ctxt {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.pop-layer p.ctxt span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #06b480;
+    line-height: 25px;
+}
+.pop-layer p.ctxt span.subject {
+    color: #303030;
+    font-size: 16px;
+}
+.pop-layer p.ctxt span.subject-s {
+    font-size: 12px;
+    color: #303030;
+    font-weight: 300;
+}
+.pop-layer h3 {
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #303030;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.pop-layer .btn-r {
+    position: fixed;
+    top: 20px;
+    right: 15%;
+    width: 100%;
+    padding-top: 10px;
+    text-align: right;
+}
+.pop-layer .layer-title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #06b480;
+}
+.pop-layer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+    border: 4px solid #06b480;
+    z-index: 10;
+    overflow: auto;
+}
+.dim-layer {
+    display: none;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.dim-layer .pop-layer {
+    display: block;
+}
+a.btn-layerClose {
+    display: inline-block;
+    height: 40px;
+    padding: 0 14px 0;
+    background-color: #06b480;
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+}
+a.btn-layerClose:hover {
+    background-color: #ffd400;
+    color: #fff;
+}
+
+/* 골 */
+section > article.goal > img {
+    position: absolute;
+    margin: 125px 0 0 195px;
+}
+section > article.goal > h1 {
+    font-size: 30px;
+    position: absolute;
+    margin: 150px 0 0 240px;
+    color: #000;
+}
+section > article.goal > div.icon-area {
+    padding-top: 150px;
+    display: flex;
+    background-color: #fff;
+    margin: 120px 160px;
+}
+.icon-box {
+    display: block;
+    background-color: #f2ffee;
+    width: 245px;
+    height: 280px;
+    border: 1px solid #f2ffee;
+    border-radius: 20px;
+}
+.icon-box > p {
+    color: #303030;
+    line-height: 1.8;
+}
+.icon-box-t1 {
+    padding-top: 80px;
+}
+.icon-box-t2 {
+    padding-top: 80px;
+}
+.icon-box-t3 {
+    padding-top: 50px;
+}
+.icon-box-t4 {
+    padding-top: 90px;
+}
+section > article.goal > div.icon-area img {
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+section > article.goal > div.icon-area h4 {
+    color: #303030;
+    margin-bottom: 40px;
+}
+section > article.goal > div.icon-area > div.icon1, div.icon2, div.icon3, div.icon4 > p {
+    color: #303030;
+    line-height: 1.8;
+}
+section > article.goal > div.icon-area > div.icon1 {
+    width: 20%;
+    text-align: center;
+}
+section > article.goal > div.icon-area > div.icon2 {
+    width: 20%;
+    text-align: center;
+}
+section > article.goal > div.icon-area > div.icon3 {
+    width: 20%;
+    text-align: center;
+}
+section > article.goal > div.icon-area > div.icon4 {
+    width: 20%;
+    text-align: center;
+}
+
+
+/* 프로젝트 */
+
+section > article.project {
+    background-color: #f2ffee;
+    margin-top: 125px;
+}
+section > article.project > img {
+    float: right;
+    position: absolute;
+    margin: 125px 0 0 0;
+    right: 200px;
+    clear: both;
+}
+section > article.project > h1 {
+    font-size: 30px;
+    text-align: right;
+    float: right;
+    position: absolute;
+    margin: 150px 0 0 0;
+    right: 220px;
+}
+section > article.project > p {
+    font-size: 16px;
+    line-height: 1.8;
+    float: right;
+    color: #545454;
+    position: absolute;
+    text-align: right;
+    margin: 250px 0 0 0;
+    right: 220px;
+}
+section > article.project > p > span {
+    color: #06b480;
+    font-weight: bold;
+}
+/*
+section > article.project > div.image-area > div.mockup > img {
+    display: inline-block;
+    z-index: 2;
+}
+*/
+
+
+section > article.project > div.text-area {
+    margin-top: -227px;
+    background-color: #fff;
+}
+section > article.project > div.text-area > img {
+    display: block;
+    margin: 600px auto 0 auto;
+}
+section > article.project > div.text-area > h3 {
+    color: #303030;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 240px;
+    margin-bottom: -500px;
+    letter-spacing: -1px;
+}
+section > article.project > div.text-area > h3 span {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+section > article.project > div.text-area > div.goal {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px; 
+}
+
+
+/* 디자인 */
+section > article.design {
+    display: flex;
+}
+section > article.design > div.design-content {
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: -20px;
+}
+/*
+section > article.design > div.design-content p {
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+section > article.design > div.design-content > div.design1 > div.designbox {
+    background-color: #fff;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #b7e4d6;
+    text-align: center;
+    overflow: hidden;
+}
+section > article.design > div.design-content > div.design1 > div.designbox:hover {
+    background-color: #06b480;
+}
+section > article.design > div.design-content > div.design2 > div.designbox:hover {
+    background-color: #06b480;
+}
+section > article.design > div.design-content > div.design3 > div.designbox:hover {
+    background-color: #06b480;
+}
+section > article.design > div.design-content > div.design1 > div.designbox > a {
+    display: block;
+    font-size: 18px;
+    color: #06b480;
+    margin-top: 85px;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+section > article.design > div.design-content > div.design2 > div.designbox > a {
+    display: block;
+    font-size: 18px;
+    color: #06b480;
+    margin-top: 85px;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+section > article.design > div.design-content > div.design3 > div.designbox > a {
+    display: block;
+    font-size: 18px;
+    color: #06b480;
+    margin-top: 95px;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+section > article.design > div.design-content > div.design1 > div.designbox:hover span {
+    margin-top: 80px;
+    display: none;
+}
+section > article.design > div.design-content > div.design2 > div.designbox:hover span {
+    margin-top: 80px;
+    display: none;
+}
+section > article.design > div.design-content > div.design3 > div.designbox:hover span {
+    margin-top: 80px;
+    display: none;
+}
+section > article.design > div.design-content > div.design1 > div.designbox:hover:before {
+    display: block;
+    margin-top: 65px;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #fff;
+    padding: 14px;
+    content: "일러스트가 현실적으로 인식될 수 있도록 실제 사람의 비율과 비슷한 일러스트를 사용하였습니다.";
+}
+section > article.design > div.design-content > div.design2 > div.designbox:hover:before {
+    display: block;
+    margin-top: 65px;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #fff;
+    padding: 14px;
+    content: "보다 쉽게 컨텐츠를 알아볼 수 있도록 직관적인 네비게이션 아이콘을 사용하였습니다.";
+}
+section > article.design > div.design-content > div.design3 > div.designbox:hover:before {
+    display: block;
+    margin-top: 55px;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: -1px;
+    color: #fff;
+    padding: 14px;
+    content: "인지가 뒤쳐지는 발달장애인의 특성을 고려하여 메뉴별 다른 색상을 사용해 어떤 메뉴인지 확실히 구분될 수 있도록 하였습니다.";
+}
+*/
+/*
+section > article.design > div.design-content > div.design1 > div.designbox:hover {
+    background-color: #06b480;
+    color: #fff;
+}
+*/
+
+/*
+section > article.design > div.design-content > div.design1 > div.designbox > div.designbox1:hover {
+    display: block;
+    background-color: #06b480;
+    margin-top: -140px;
+}
+*/
+section > article.design > div.design-content > div.design1 > div.designbox > div.designbox1 p {
+    margin-top: 90px;
+}
+section > article.design > div.design-content > div.design1 > div.designbox h5 {
+    color: #06b480;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 400;
+}
+section > article.design > div.design-content > div.design2 > div.designbox {
+    background-color: #fff;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #b7e4d6;
+    text-align: center;
+    overflow: hidden;
+}
+section > article.design > div.design-content > div.design2 > div.designbox h5 {
+    color: #06b480;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 400;
+}
+section > article.design > div.design-content > div.design3 > div.designbox {
+    background-color: #fff;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #b7e4d6;
+    text-align: center;
+    overflow: hidden;
+}
+section > article.design > div.design-content > div.design3 > div.designbox h5 {
+    color: #06b480;
+    font-size: 18px;
+    margin-top: 95px;
+    font-weight: 400;
+}
+section > article.design {
+    background-color: #08b681;
+}
+
+section > article.design > img {
+    position: absolute;
+    margin: 125px 0 0 195px;
+}
+section > article.design > h1 {
+    font-size: 30px;
+    position: absolute;
+    margin: 150px 0 0 240px;
+    color: #fff;
+}
+/*
+section > article.design > div.design-content {
+    display: block;
+    width: 1050px;
+    margin: 300px auto 100px auto;
+}
+section > article.design > div.design-content img {
+    
+    margin-bottom: 50px;
+}
+section > article.design > div.design-content > ul {
+    float: left;
+}
+section > article.design > div.design-content > ul > li {
+    display: flex;
+}
+section > article.design > div.design-content > ul > li > p {
+    margin-left: 150px;
+    width: 1500px;
+    padding-top: 100px;
+}
+*/
+
+/* 콘텐츠 */
+
+section > article.contents {
+    background-color: #fff;
+}
+section > article.contents > img {
+    position: absolute;
+    margin: 125px 0 0 195px;
+}
+section > article.contents > h1 {
+    font-size: 30px;
+    position: absolute;
+    margin: 150px 0 0 240px;
+}
+
+/* 콘텐츠 소개 */
+
+section > article.contents > div.design-content {
+    display: flex;
+    margin-top: 300px;
+    width: 70%;
+    margin-bottom: 200px;
+}
+section > article.contents > div.design-content p {
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+section > article.contents > div.design-content > div.design1 > div.designbox {
+    background-color: #08b681;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #bfecde;
+    text-align: center;
+}
+section > article.contents > div.design-content > div.design1 > div.designbox h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+section > article.contents > div.design-content > div.design2 > div.designbox {
+    background-color: #08b681;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #bfecde;
+    text-align: center;
+}
+section > article.contents > div.design-content > div.design2 > div.designbox h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+section > article.contents > div.design-content > div.design3 > div.designbox {
+    background-color: #08b681;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+    border: 15px solid #bfecde;
+    text-align: center;
+}
+section > article.contents > div.design-content > div.design3 > div.designbox h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 80px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+/*
+section > article.contents > div.content0 {
+    height: 780px;
+}
+section > article.contents > div.content0 > img {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 320px;
+}
+*/
+/* 콘텐츠 - 배움행성 */
+section > article.contents > div.content1 {
+    padding-bottom: 500px;
+}
+section > article.contents > div.content1 > div.content1-text {
+    position: absolute;
+    left: 220px;
+    margin-top: 100px;
+}
+section > article.contents > div.content1 > div.content1-text > h1 {
+    font-size: 40px;
+    color: #06b480;
+}
+section > article.contents > div.content1 > div.content1-text > h3 {
+    font-size: 30px;
+    color: #06b480;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content1 > div.content1-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+section > article.contents > div.content1 > div.content1-app {
+    background-color: #f2ffee;
+    text-align: center;
+    margin: 0 auto;
+}
+section > article.contents > div.content1 > div.content1-app > img {
+    margin-right: 10px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 20px #ececec;
+    padding-bottom: -200px;
+}
+section > article.contents > div.content1 > div.content1-app > img:nth-child(3) {
+    margin-right: -10px;
+    margin-top: 100px;
+}
+section > article.contents > div.content1 > div.content1-app > img:nth-child(4) {
+    box-shadow: 0px 0px 0px #fff;
+    padding-bottom: -300px;
+}
+
+
+
+
+
+
+/* 콘텐츠 - 놀이행성 */
+section > article.contents > div.content2 {
+    background-color: #fff;
+    margin-top: -800px;
+    padding-top: 400px;
+}
+
+section > article.contents > div.content2 > div.content2-text {
+    position: absolute;
+    right: 220px;
+    text-align: right;
+    margin-top: 50px;
+}
+section > article.contents > div.content2 > div.content2-text > h1 {
+    font-size: 40px;
+    color: #f46f6f;
+}
+section > article.contents > div.content2 > div.content2-text > h3 {
+    font-size: 30px;
+    color: #f46f6f;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content2 > div.content2-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+
+section > article.contents > div.content2 > div.content2-app {
+    text-align: center;
+    margin: 0 auto;
+}
+section > article.contents > div.content2 > div.content2-app > img {
+    margin-top: 100px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 20px #ececec;
+}
+section > article.contents > div.content2 > div.content2-app > img:first-child {
+    margin-right: -40px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 0px #ececec;
+}
+
+
+/* 콘텐츠 - 소식행성 */
+section > article.contents > div.content3 > div.content3-text {
+    position: absolute;
+    left: 220px;
+    margin-top: 100px;
+}
+section > article.contents > div.content3 > div.content3-text > h1 {
+    font-size: 40px;
+    color: #6187ff;
+}
+section > article.contents > div.content3 > div.content3-text > h3 {
+    font-size: 30px;
+    color: #6187ff;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content3 > div.content3-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+section > article.contents > div.content3 > div.content3-app {
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0 auto;
+}
+section > article.contents > div.content3 > div.content3-app > img {
+    margin-right: -40px;
+    margin-top: 230px;
+}
+section > article.contents > div.content3 > div.content3-app > img.image-1 {
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+section > article.contents > div.content3 > div.content3-app > img.image-2 {
+    margin-bottom: 200px;
+    margin-top: 160px;
+}
+
+
+/* 콘텐츠 - 궁금행성 */
+section > article.contents > div.content4 {
+    background-color: #fff;
+    margin-top: -300px;
+    padding-top: 800px;
+}
+
+section > article.contents > div.content4 > div.content4-text {
+    position: absolute;
+    right: 220px;
+    text-align: right;
+    margin-top: -250px;
+}
+section > article.contents > div.content4 > div.content4-text > h1 {
+    font-size: 40px;
+    color: #ff9d48;
+}
+section > article.contents > div.content4 > div.content4-text > h3 {
+    font-size: 30px;
+    color: #ff9d48;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content4 > div.content4-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+
+section > article.contents > div.content4 > div.content4-app {
+    text-align: center;
+    margin: 0 auto;
+}
+section > article.contents > div.content4 > div.content4-app > img {
+    margin-right: -20px;
+}
+section > article.contents > div.content4 > div.content4-app > img.image-3 {
+    margin-bottom: 220px;
+}
+
+
+/* 콘텐츠 - 보호자 화면 */
+section > article.contents > div.content5 {
+    background-color: #f2ffee;
+    margin-top: -225px;
+    padding-top: 250px;
+}
+section > article.contents > div.content5 > div.content5-text {
+    position: absolute;
+    left: 220px;
+    margin-top: 30px;
+}
+section > article.contents > div.content5 > div.content5-text > h1 {
+    font-size: 40px;
+    color: #06b480;
+}
+section > article.contents > div.content5 > div.content5-text > h3 {
+    font-size: 30px;
+    color: #06b480;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content5 > div.content5-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+section > article.contents > div.content5 > div.content5-app {
+    text-align: center;
+    margin: 0 auto;
+}
+section > article.contents > div.content5 > div.content5-app > img {
+    margin-right: 30px;
+    margin-top: 120px;
+}
+
+
+/* 마지막 */
+section > article.contents > div.content6 {
+    background-color: #fff;
+}
+section > article.contents > div.content6 > div.content6-text {
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    margin-bottom: 300px;
+}
+section > article.contents > div.content6 > div.content6-text > img {
+    position: absolute;
+    margin-top: 200px;
+}
+section > article.contents > div.content6 > div.content6-text > h1 {
+    position: relative;
+    margin-top: 220px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #303030;
+}
+/*
+section > article.contents > div.content6 > div.content6-text {
+    position: absolute;
+    left: 120px;
+    margin-top: -300px;
+}
+section > article.contents > div.content6 > div.content6-text > h1 {
+    font-size: 40px;
+    color: #6187ff;
+}
+section > article.contents > div.content6 > div.content6-text > h3 {
+    font-size: 30px;
+    color: #6187ff;
+    margin-bottom: 45px;
+}
+section > article.contents > div.content6 > div.content6-text > p {
+    font-size: 16px;
+    color: #545454;
+}
+*/
+
+/* 컬러박스 */
+/* 서브컬러 옐로우 */
+section > article.contents > div.content1 > div.content1-text > div.content1-box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #ffd768;
+    text-align: center;
+    display: inline-block;
+    color: #545454;
+    margin-top: 30px;
+}
+section > article.contents > div.content1 > div.content1-text > div.content1-box1 > h5 {
+    margin-top: 25px;
+}
+section > article.contents > div.content1 > div.content1-text > div.content1-box1 > p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+/* 메인컬러 그린 */
+section > article.contents > div.content1 > div.content1-text > div.content1-box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #06b480;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+section > article.contents > div.content1 > div.content1-text > div.content1-box2 > h5 {
+    margin-top: 25px;
+}
+section > article.contents > div.content1 > div.content1-text > div.content1-box2 > p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+/* 메인컬러 핑크 */
+section > article.contents > div.content2 > div.content2-text > div.content2-box {
+    width: 100px;
+    height: 100px;
+    background-color: #f46f6f;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+}
+section > article.contents > div.content2 > div.content2-text > div.content2-box > h5 {
+    margin-top: 25px;
+}
+section > article.contents > div.content2 > div.content2-text > div.content2-box > p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+/* 메인컬러 블루 */
+section > article.contents > div.content3 > div.content3-text > div.content3-box {
+    width: 100px;
+    height: 100px;
+    background-color: #6187ff;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+}
+section > article.contents > div.content3 > div.content3-text > div.content3-box > h5 {
+    margin-top: 25px;
+}
+section > article.contents > div.content3 > div.content3-text > div.content3-box > p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+/* 메인컬러 오렌지 */
+section > article.contents > div.content4 > div.content4-text > div.content4-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9d48;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+}
+section > article.contents > div.content4 > div.content4-text > div.content4-box > h5 {
+    margin-top: 25px;
+}
+section > article.contents > div.content4 > div.content4-text > div.content4-box > p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* 버튼 */
+button {
+    outline: none;
+    position: absolute;
+    left: 50%;
+    margin-top: 500px;
+    margin-left: -70px;
+    display:inline-block;
+    height:40px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:#06b480;
+    border:1px solid #fff;
+    border-radius:2px;
+    color:#fff;
+    line-height:40px;
+    cursor:pointer;
+    overflow: hidden;
+}
+button:hover {
+    background-color:#ffd400;
+    color:#fff;
+    border:1px solid #fff;
+}
+
+/* 공지 */
+.notice {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    font-size: 12px;
+    color: #c7c7c7;
+}
+
+/* 콘텐츠 목업 */
+.content-mockup img {
+    width: 100vw;
+}
+.design-mockup img {
+    width: 100vw;
+}
+
