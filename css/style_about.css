@@ -28,10 +28,6 @@ section > article.overview > h3 {
     top: 73vh;
     margin-left: 10%;
     text-shadow: 0 0 5px #303030;
-    /*
-    margin: 650px 0 0 20%;
-    padding-bottom: 3%;
-    */
 }
 section > article.overview > p {
     display: inline-block;
@@ -40,9 +36,6 @@ section > article.overview > p {
     margin-left: 10%;
     line-height: 1.8;
     font-weight: 400;
-    /*
-    margin: 0 0 0 110px;
-    */
     width: 53%;
     font-size: 16px;
     color: #fff;
@@ -66,7 +59,6 @@ section > article.overview > .overview-title > h4 {
     font-weight: 400;
     letter-spacing: -1px;
 }
-}
 section > article.overview > h2 span {
     font-size: 22px;
     font-weight: 300;
@@ -82,7 +74,7 @@ section > article.statistics > img {
     position: absolute;
     margin: 125px 0 0 195px;
 }
-section > article.statistics > h1 {
+section > article.statistics > h2 {
     font-size: 30px;
     position: absolute;
     margin: 150px 0 0 240px;
@@ -195,7 +187,7 @@ section > article.interview > img {
     position: absolute;
     margin: 125px 0 0 195px;
 }
-section > article.interview > h1 {
+section > article.interview > h2 {
     font-size: 30px;
     position: absolute;
     margin: 150px 0 0 240px;
@@ -256,11 +248,11 @@ section > article.interview > div.interview-text > div.box1 {
     display: inline-block;
     width: 35%;
 }
-section > article.interview > div.interview-text > div.box1 > h1 {
+section > article.interview > div.interview-text > div.box1 > h2 {
     font-size: 50px;
     color: #06b480;
 }
-section > article.interview > div.interview-text > div.box1 > h2 {
+section > article.interview > div.interview-text > div.box1 > h3 {
     margin: 10px 0 30px 0;
     font-size: 20px;
     color: #06b480;
@@ -278,11 +270,11 @@ section > article.interview > div.interview-text > div.box2 {
     display: inline-block;
     width: 35%;
 }
-section > article.interview > div.interview-text > div.box2 > h1 {
+section > article.interview > div.interview-text > div.box2 > h2 {
     font-size: 50px;
     color: #06b480;
 }
-section > article.interview > div.interview-text > div.box2 > h2 {
+section > article.interview > div.interview-text > div.box2 > h3 {
     margin: 10px 0 30px 0;
     font-size: 20px;
     color: #06b480;
@@ -301,11 +293,11 @@ section > article.interview > div.interview-text > div.box3 {
     display: inline-block;
     width: 35%;
 }
-section > article.interview > div.interview-text > div.box3 > h1 {
+section > article.interview > div.interview-text > div.box3 > h2 {
     font-size: 50px;
     color: #06b480;
 }
-section > article.interview > div.interview-text > div.box3 > h2 {
+section > article.interview > div.interview-text > div.box3 > h3 {
     margin: 10px 0 30px 0;
     font-size: 20px;
     color: #06b480;
@@ -323,11 +315,11 @@ section > article.interview > div.interview-text > div.box4 {
     margin: 120px 100px 0 0px;
     width: 35%;
 }
-section > article.interview > div.interview-text > div.box4 > h1 {
+section > article.interview > div.interview-text > div.box4 > h2 {
     font-size: 50px;
     color: #06b480;
 }
-section > article.interview > div.interview-text > div.box4 > h2 {
+section > article.interview > div.interview-text > div.box4 > h3 {
     margin: 10px 0 30px 0;
     font-size: 20px;
     color: #06b480;
@@ -449,7 +441,7 @@ section > article.goal > img {
     position: absolute;
     margin: 125px 0 0 195px;
 }
-section > article.goal > h1 {
+section > article.goal > h2 {
     font-size: 30px;
     position: absolute;
     margin: 150px 0 0 240px;
@@ -516,7 +508,6 @@ section > article.goal > div.icon-area > div.icon4 {
 
 
 /* 프로젝트 */
-
 section > article.project {
     background-color: #f2ffee;
     margin-top: 125px;
@@ -528,7 +519,7 @@ section > article.project > img {
     right: 200px;
     clear: both;
 }
-section > article.project > h1 {
+section > article.project > h2 {
     font-size: 30px;
     text-align: right;
     float: right;
@@ -550,14 +541,6 @@ section > article.project > p > span {
     color: #06b480;
     font-weight: bold;
 }
-/*
-section > article.project > div.image-area > div.mockup > img {
-    display: inline-block;
-    z-index: 2;
-}
-*/
-
-
 section > article.project > div.text-area {
     margin-top: -227px;
     background-color: #fff;
@@ -597,114 +580,6 @@ section > article.design > div.design-content {
     width: 100%;
     margin-bottom: -20px;
 }
-/*
-section > article.design > div.design-content p {
-    font-size: 14px;
-    text-align: center;
-    color: #303030;
-    margin-top: 50px;
-    margin-bottom: 200px;
-}
-section > article.design > div.design-content > div.design1 > div.designbox {
-    background-color: #fff;
-    display: block;
-    width: 220px;
-    height: 220px;
-    border-radius: 200px;
-    border: 15px solid #b7e4d6;
-    text-align: center;
-    overflow: hidden;
-}
-section > article.design > div.design-content > div.design1 > div.designbox:hover {
-    background-color: #06b480;
-}
-section > article.design > div.design-content > div.design2 > div.designbox:hover {
-    background-color: #06b480;
-}
-section > article.design > div.design-content > div.design3 > div.designbox:hover {
-    background-color: #06b480;
-}
-section > article.design > div.design-content > div.design1 > div.designbox > a {
-    display: block;
-    font-size: 18px;
-    color: #06b480;
-    margin-top: 85px;
-    text-decoration: none;
-    letter-spacing: -1px;
-}
-section > article.design > div.design-content > div.design2 > div.designbox > a {
-    display: block;
-    font-size: 18px;
-    color: #06b480;
-    margin-top: 85px;
-    text-decoration: none;
-    letter-spacing: -1px;
-}
-section > article.design > div.design-content > div.design3 > div.designbox > a {
-    display: block;
-    font-size: 18px;
-    color: #06b480;
-    margin-top: 95px;
-    text-decoration: none;
-    letter-spacing: -1px;
-}
-section > article.design > div.design-content > div.design1 > div.designbox:hover span {
-    margin-top: 80px;
-    display: none;
-}
-section > article.design > div.design-content > div.design2 > div.designbox:hover span {
-    margin-top: 80px;
-    display: none;
-}
-section > article.design > div.design-content > div.design3 > div.designbox:hover span {
-    margin-top: 80px;
-    display: none;
-}
-section > article.design > div.design-content > div.design1 > div.designbox:hover:before {
-    display: block;
-    margin-top: 65px;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: -1px;
-    color: #fff;
-    padding: 14px;
-    content: "일러스트가 현실적으로 인식될 수 있도록 실제 사람의 비율과 비슷한 일러스트를 사용하였습니다.";
-}
-section > article.design > div.design-content > div.design2 > div.designbox:hover:before {
-    display: block;
-    margin-top: 65px;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: -1px;
-    color: #fff;
-    padding: 14px;
-    content: "보다 쉽게 컨텐츠를 알아볼 수 있도록 직관적인 네비게이션 아이콘을 사용하였습니다.";
-}
-section > article.design > div.design-content > div.design3 > div.designbox:hover:before {
-    display: block;
-    margin-top: 55px;
-    font-weight: 300;
-    font-size: 15px;
-    letter-spacing: -1px;
-    color: #fff;
-    padding: 14px;
-    content: "인지가 뒤쳐지는 발달장애인의 특성을 고려하여 메뉴별 다른 색상을 사용해 어떤 메뉴인지 확실히 구분될 수 있도록 하였습니다.";
-}
-*/
-/*
-section > article.design > div.design-content > div.design1 > div.designbox:hover {
-    background-color: #06b480;
-    color: #fff;
-}
-*/
-
-/*
-section > article.design > div.design-content > div.design1 > div.designbox > div.designbox1:hover {
-    display: block;
-    background-color: #06b480;
-    margin-top: -140px;
-}
-*/
 section > article.design > div.design-content > div.design1 > div.designbox > div.designbox1 p {
     margin-top: 90px;
 }
@@ -754,34 +629,12 @@ section > article.design > img {
     position: absolute;
     margin: 125px 0 0 195px;
 }
-section > article.design > h1 {
+section > article.design > h2 {
     font-size: 30px;
     position: absolute;
     margin: 150px 0 0 240px;
     color: #fff;
 }
-/*
-section > article.design > div.design-content {
-    display: block;
-    width: 1050px;
-    margin: 300px auto 100px auto;
-}
-section > article.design > div.design-content img {
-    
-    margin-bottom: 50px;
-}
-section > article.design > div.design-content > ul {
-    float: left;
-}
-section > article.design > div.design-content > ul > li {
-    display: flex;
-}
-section > article.design > div.design-content > ul > li > p {
-    margin-left: 150px;
-    width: 1500px;
-    padding-top: 100px;
-}
-*/
 
 /* 콘텐츠 */
 
@@ -792,7 +645,7 @@ section > article.contents > img {
     position: absolute;
     margin: 125px 0 0 195px;
 }
-section > article.contents > h1 {
+section > article.contents > h2 {
     font-size: 30px;
     position: absolute;
     margin: 150px 0 0 240px;
@@ -862,17 +715,6 @@ section > article.contents > div.design-content > div.design3 > div.designbox h5
     letter-spacing: -1px;
 }
 
-/*
-section > article.contents > div.content0 {
-    height: 780px;
-}
-section > article.contents > div.content0 > img {
-    display: block;
-    width: 1000px;
-    margin: 0 auto;
-    padding-top: 320px;
-}
-*/
 /* 콘텐츠 - 배움행성 */
 section > article.contents > div.content1 {
     padding-bottom: 500px;
@@ -914,11 +756,6 @@ section > article.contents > div.content1 > div.content1-app > img:nth-child(4) 
     box-shadow: 0px 0px 0px #fff;
     padding-bottom: -300px;
 }
-
-
-
-
-
 
 /* 콘텐츠 - 놀이행성 */
 section > article.contents > div.content2 {
@@ -962,7 +799,6 @@ section > article.contents > div.content2 > div.content2-app > img:first-child {
     box-shadow: 0px 0px 0px #ececec;
 }
 
-
 /* 콘텐츠 - 소식행성 */
 section > article.contents > div.content3 > div.content3-text {
     position: absolute;
@@ -1000,14 +836,12 @@ section > article.contents > div.content3 > div.content3-app > img.image-2 {
     margin-top: 160px;
 }
 
-
 /* 콘텐츠 - 궁금행성 */
 section > article.contents > div.content4 {
     background-color: #fff;
     margin-top: -300px;
     padding-top: 800px;
 }
-
 section > article.contents > div.content4 > div.content4-text {
     position: absolute;
     right: 220px;
@@ -1038,7 +872,6 @@ section > article.contents > div.content4 > div.content4-app > img {
 section > article.contents > div.content4 > div.content4-app > img.image-3 {
     margin-bottom: 220px;
 }
-
 
 /* 콘텐츠 - 보호자 화면 */
 section > article.contents > div.content5 {
@@ -1073,7 +906,6 @@ section > article.contents > div.content5 > div.content5-app > img {
     margin-top: 120px;
 }
 
-
 /* 마지막 */
 section > article.contents > div.content6 {
     background-color: #fff;
@@ -1088,7 +920,7 @@ section > article.contents > div.content6 > div.content6-text > img {
     position: absolute;
     margin-top: 200px;
 }
-section > article.contents > div.content6 > div.content6-text > h1 {
+section > article.contents > div.content6 > div.content6-text > h2 {
     position: relative;
     margin-top: 220px;
     text-align: center;
@@ -1096,27 +928,6 @@ section > article.contents > div.content6 > div.content6-text > h1 {
     font-weight: 300;
     color: #303030;
 }
-/*
-section > article.contents > div.content6 > div.content6-text {
-    position: absolute;
-    left: 120px;
-    margin-top: -300px;
-}
-section > article.contents > div.content6 > div.content6-text > h1 {
-    font-size: 40px;
-    color: #6187ff;
-}
-section > article.contents > div.content6 > div.content6-text > h3 {
-    font-size: 30px;
-    color: #6187ff;
-    margin-bottom: 45px;
-}
-section > article.contents > div.content6 > div.content6-text > p {
-    font-size: 16px;
-    color: #545454;
-}
-*/
-
 /* 컬러박스 */
 /* 서브컬러 옐로우 */
 section > article.contents > div.content1 > div.content1-text > div.content1-box1 {
@@ -1230,7 +1041,7 @@ button:hover {
 
 /* 공지 */
 .notice {
-    display: block;
+    display: none;
     width: 100%;
     margin: 0 auto;
     position: absolute;

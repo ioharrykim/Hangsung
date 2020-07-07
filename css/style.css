@@ -14,95 +14,66 @@
     margin: 0;
     padding: 0;
 }
-
-
-
-
 .s0 {
     background-image: url(../images/indexmain_0.jpg);
     background-size: cover;
 }
-
-/*
-.s1 {
-    background-image: url(../images/2.jpg);
-    background-size: cover;
+#vm {
+    width: 0%;
 }
-.s2 {
-    background-image: url(../images/3.jpg);
-    background-size: cover;
-}
-.s3 {
-    background-image: url(../images/4.jpg);
-    background-size: cover;
-}
-.s4 {
-    background-image: url(../images/5.jpg);
-    background-size: cover;
-}
-.s5 {
-    background-image: url(../images/6.jpg);
-    background-size: cover;
-}
-*/
-
-
-
 #v0 {
     float: left;
     margin-left: 10%;
+    width: 30%;
 }
 #v1 {
     float: right;
     opacity: 0%;
+    width: 50%;
 }
 #v2 {
     float: left;
     opacity: 0%;
+    width: 50%;
 }
 #v3 {
     float: right;
     right: 300px;
     margin-bottom: -100px;
     z-index: -9999;
+    width: 70%;
 }
 #v4 {
     float: left;
     margin-left: 50px;
+    width: 50%;
 }
 #v5 {
     float: right;
+    width: 50%;
 }
 #v6 {
     float: left;
+    width: 50%;
 }
 #v7 {
     float: right;
+    width: 50%;
 }
 #v8 {
     float: left;
+    width: 50%;
 }
 
 #container {
     z-index: 0;
 }
-
-
-/*
-#i4 {
-    float: left;
-    display: none;
-    width: 50%;
-    position: absolute;
-}
-*/
 .section h1 {
     font-size: 54px;
     font-weight: 900;
     letter-spacing: -2px;
     line-height: 1.2;
 }
-
 /* 메인 페이지 */
 .main-page {
     margin-top: -6%;
@@ -464,15 +435,6 @@ table td span {
     font-weight: 900;
     color: #755f00;
 }
-
-/*
-a {
-    display: none;
-    float: right;
-    text-align: right;
-    text-decoration: none;
-}
-*/
 #fp-nav ul li a span {
     background-color: #8b8b8b;
     color: #8b8b8b;
@@ -596,33 +558,3 @@ a.header-logo {
     background-image: url(../images/main1-1.jpg);
     background-size: cover;
 }
-
-/* 마우스 */
-
-
-  /*
-  span {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: absolute;
-    pointer-events: none;
-    background: #55b9f3;
-    transform: translate(-50%, -50%);
-    animation: blow 4s linear infinite;
-  }
-  
-  
-  @keyframes blow {
-    0% {
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      transform: translate(-50%, -1000%);
-      opacity: 0;
-      filter: hue-rotate(720deg);
-    }
-  }
-  */
